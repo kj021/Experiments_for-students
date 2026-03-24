@@ -105,7 +105,7 @@ def make_nyiso_power_temp_solar(
     })
 
     os.makedirs(out_dir, exist_ok=True)
-    final_df.to_csv(f"{out_dir}/실습데이터.csv", index=False, encoding=encoding)
+    final_df.to_csv(f"{out_dir}/integrated_merged.csv", index=False, encoding=encoding)
 
     return final_df
 
